@@ -45,8 +45,8 @@ button {
     font-family: 'Kalam', cursive;
     font-size: large;
     align-items: center;
-    display: block;
-    margin: auto;
+    /* display: block; */
+    /* margin: auto; */
 }
 
 
