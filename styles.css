@@ -14,7 +14,10 @@ body {
     margin: 0;
     font-family: 'Kalam', cursive;
     color: #333333;
+    background-image: url('https://cdn.vox-cdn.com/thumbor/7gM5-0rkTlc-JXm4CWbEthr7CPA=/0x0:2880x1800/1200x800/filters:focal(1210x670:1670x1130)/cdn.vox-cdn.com/uploads/chorus_image/image/52950375/c42ac6a0c2aaee69c79955d1d32c54b4_large.0.0.jpeg');
+    background-size: 100%;
 }
+
 
 nav {
     background-color: var(--primary);
@@ -22,32 +25,33 @@ nav {
 }
 
 main {
-    margin: auto;
+    background-color: rgba(255, 255, 255, 0.842);
+    width: 100%;
+    margin: 5vh auto;
     padding: 1rem;
     max-width: var(--width-break);
 }
 
 textarea {
     box-sizing: border-box;
-    display: block;
     width: 100%;
-    min-height: 20vh;
-    margin-top: 2rem;
+    min-height: 10vh;
+    margin-top: 1.25rem;
     font-size: large;
     font-family: inherit;
+    text-align: center;
 }
 
 button {
     background-color: var(--primary);
     border: none;
-    margin: 1rem 0rem;
+    margin: 4rem auto;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     font-family: 'Kalam', cursive;
     font-size: large;
     align-items: center;
     display: block;
-    margin: 1rem auto;
 }
 
 
@@ -56,8 +60,13 @@ button {
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
-    overflow:scroll;
+    overflow:auto;
+    text-align: center;
     border: 1px solid var(--black);
+    margin-bottom: 1.25rem;
+}
+#pointer{
+    text-align: center;
 }
 
 footer {
